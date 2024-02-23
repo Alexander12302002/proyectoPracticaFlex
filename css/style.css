@@ -1,5 +1,36 @@
 @import url(variables.css);
 
 *{
-    background: black;
+    background: rgb(255, 255, 255)
+}
+
+.menu{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: gray;
+    padding-right: 30px;
+    margin-bottom: 5px;
+}
+
+.items h1{
+    background: gray;
+    color: #000;
+    padding-left: 30px;
+}
+
+.items button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.items button:hover{
+    background: rgb(218, 218, 218);
 }
