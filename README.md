@@ -1,5 +1,5 @@
 # proyectoPracticaFlex
 
-![](https://github.com/Alexander12302002/proyectoPracticaFlex/tree/main/ejercicio_1/storage/ejercicio_1.png)
+![](https://github.com/Alexander12302002/proyectoPracticaFlex/blob/ejercicio_1/storage/img/ejercicio_1.PNG)
 
-<img src="https://github.com/Alexander12302002/proyectoPracticaFlex/tree/main/ejercicio_1/storage/ejercicio_1.png" width="200" height="200">
+<img src="https://github.com/Alexander12302002/proyectoPracticaFlex/blob/ejercicio_1/storage/img/ejercicio_1.PNG" width="200" height="200">
