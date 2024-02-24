@@ -1,5 +1,73 @@
 @import url(variables.css);
 
 *{
-    background: black;
+    background: rgb(250, 250, 250);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: rgb(180, 180, 180);
+}
+
+header h1{
+    background: rgb(180, 180, 180);
+}
+
+main{
+    display: flex;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 500px;
+}
+
+.item:first-child{
+    background: rgb(170, 170, 170);
+}
+
+.item:first-child, h5{
+    background: rgb(170, 170, 170);
+}
+
+
+.item:nth-child(2){
+    width: 1400px;
+    background: rgb(146, 146, 146);
+}
+
+.item:nth-child(2), h3, p{
+    background: rgb(146, 146, 146);
+}
+
+.item:last-child{
+    background: rgb(170, 170, 170);
+}
+
+.item:last-child, h5{
+    background: rgb(170, 170, 170);
+}
+
+.item h3, p{
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    background: rgb(180, 180, 180);
+}
+
+footer h3{
+    background: rgb(180, 180, 180);
 }
