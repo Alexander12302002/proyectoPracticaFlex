@@ -1,5 +1,114 @@
 @import url(variables.css);
 
 *{
-    background: black;
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: salmon;
+}
+
+.content{
+    background: salmon;
+    color: #fff;
+    margin: 8px; 
+}
+
+.menu{
+    background: rgb(27, 188, 155);
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+
+.items{
+    width: 500px;
+    background: rgb(27, 188, 155);
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.items a{
+    margin: 10px;
+    background: rgb(27, 188, 155);
+    color: #fff;
+    text-decoration: none;
+}
+
+.idiomas{
+    width: 500px;
+    background: rgb(27, 188, 155);
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;  
+}
+
+.idiomas a{
+    margin: 10px;
+    background: rgb(27, 188, 155);
+    color: #fff;
+    text-decoration: none;
+}
+
+aside{
+    width: 33%;
+    float: left;
+}
+
+.menu-lateral{
+    background: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-lateral img{
+    background: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.menu-lateral h1, p{
+    background: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 12px;
+}
+
+.contenido{
+    width: 67%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.document{
+    margin-left: 15px;
+    background: #fff;
+    width: 668px;
+}
+
+.footer{
+    width: 1310px;
+    height: 50px;
+    background: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
