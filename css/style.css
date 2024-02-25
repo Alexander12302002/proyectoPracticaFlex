@@ -2,46 +2,60 @@
 
 *{
     background: rgb(148, 217, 233);
-    box-sizing: content-box;
 }
 
 .Packs{
     display: flex;
-    justify-content: space-around;
-    height: 480px;
-}
-.Item{
-    display: flex;
-    width: 200px;
-    flex-direction: column;
-    border-radius: 10px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.opciones{
+.plan{
     display: flex;
-    flex: 0.3;
-    justify-content: center;
+    height: 480px;
+    background-color: #fff;
+    border-radius: 15px;
+    flex-direction: column;
     align-items: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-top-left-radius: 10px;
-    border-top-right-radius:  10px;
+    box-shadow: 10px 5px 10px rgb(182, 182, 182);
+}
+
+.opciones, h1{
+    border-top-left-radius:  15px;
+    border-top-right-radius: 15px;
+    background: salmon;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Datos{
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: #fff;
     display: flex;
+    height: 480px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Datos li{
+    margin-top: 15px;
+    background: #fff;
+    display: flex;
+    width: 200px;
+    text-decoration: underline;
+    list-style: none;
     flex-direction: column;
     align-items: center;
 }
 
 .boton{
-    display: flex;
-}
-
-.Datos, .Item, p, button{
-    background-color: #fff;
-}
-
-.opciones{
-    background-color: rgb(250, 128, 113);
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 10px;
+    border: none;
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
 }
