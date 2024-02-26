@@ -1,5 +1,76 @@
 @import url(variables.css);
 
 *{
-    background: black;
+    background: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1000px;
+}
+
+header{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 1000px;
+}
+
+.Circulo{
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+aside{
+    width: 40%;
+    float: left;
+    flex-direction: column;
+}
+
+.menu-lateral{
+    margin-top: 1px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.dashboard{
+    border: 1px solid black;
+    display: flex;
+    width: 398px;
+    align-items: center;
+    height: 50px;
+}
+.cuadrado{
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.parrado{
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.items{
+    display: flex;
+}
+
+.item{
+    display: flex;
 }
