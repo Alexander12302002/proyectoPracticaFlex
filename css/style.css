@@ -29,7 +29,7 @@ header{
     margin-right: 5px;
 }
 
-aside{
+.izquierda{
     width: 40%;
     float: left;
     flex-direction: column;
@@ -95,7 +95,93 @@ aside{
     font-size: 45px;
     border-bottom: 1px solid black;
 }
-
 .item{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+footer{
+    border: 1px solid black;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.derecha{
+    display: flex;
+    width: 60%;
+    height: 627px;
+    float: right;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.dashboard-2{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 163px;
+    height: 71px;
+    justify-content: center;
+}
+
+.derecha h1{
+    margin-left: 10px;
+    font-size: 23px;
+}
+
+.derecha p{
+    margin-left: 10px;
+    font-size: 19px;
+}
+
+.Contenido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    height: 238px;
+    width: 578px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contenido div{
+    border: 1px solid black;
+    display: flex;
+    width: 201px;
+    height: 94px;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.caja-total{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja-total .caja-titulo-parrafo{
+    display: flex;
+    border: 1px solid black;
+    width: 422px;
+    height: 269px;
+    flex-direction: column;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;;
+}
+
+.caja-dentro-del-titulo{
+    display: flex;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 320px;
+    height: 269px;
 }
