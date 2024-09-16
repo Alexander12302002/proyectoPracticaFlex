@@ -1,0 +1,54 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+background: rgb(253, 253, 253);
+}
+
+.header{
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10;
+}
+
+.header .logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.header .nav-link{
+    list-style: none;
+}
+
+.header .nav-link li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-link a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .nav-idiomas{
+    list-style: none;
+}
+
+.header .nav-idiomas li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-idiomas a{
+    color: #fff;
+    text-decoration: none;
+    border: 10px solid #000000;
+    background: #000000;
+}
