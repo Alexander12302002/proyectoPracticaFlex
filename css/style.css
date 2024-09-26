@@ -1,0 +1,187 @@
+@import url(variables.css);
+
+*{
+    background: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1000px;
+}
+
+header{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 1000px;
+}
+
+.Circulo{
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.izquierda{
+    width: 40%;
+    float: left;
+    flex-direction: column;
+}
+
+.menu-lateral{
+    margin-top: 1px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.dashboard{
+    border: 1px solid black;
+    display: flex;
+    width: 398px;
+    align-items: center;
+    height: 50px;
+}
+.cuadrado{
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.parrado{
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 398px;
+}
+
+.items h6{
+    display: flex;
+    width: 297px;
+    height: 39px;
+    font-size: 35px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.items p{
+    display: flex;
+    width: 101px;
+    height: 39px;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    border-bottom: 1px solid black;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+footer{
+    border: 1px solid black;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.derecha{
+    display: flex;
+    width: 60%;
+    height: 627px;
+    float: right;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.dashboard-2{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 163px;
+    height: 71px;
+    justify-content: center;
+}
+
+.derecha h1{
+    margin-left: 10px;
+    font-size: 23px;
+}
+
+.derecha p{
+    margin-left: 10px;
+    font-size: 19px;
+}
+
+.Contenido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    height: 238px;
+    width: 578px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contenido div{
+    border: 1px solid black;
+    display: flex;
+    width: 201px;
+    height: 94px;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.caja-total{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja-total .caja-titulo-parrafo{
+    display: flex;
+    border: 1px solid black;
+    width: 422px;
+    height: 269px;
+    flex-direction: column;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;;
+}
+
+.caja-dentro-del-titulo{
+    display: flex;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 320px;
+    height: 269px;
+}
